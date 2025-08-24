@@ -1,0 +1,34 @@
+{
+    "name": "Clicker",
+    "maps": [
+        {
+            "name": "OnClick",
+            "id": "c8ca067a-e643-4a3a-8a3d-ea457ceb8a80",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "ef2a67cd-2793-4e41-8daf-37edf0e60bc7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "126a0439-3da5-462c-8811-5f83db30e469",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 0243039bdded1bb448997a5ba1477478
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - O2_Icon: {fileID: 5942849330221184771, guid: 2c7d5d846930d5f45b04535569cab677, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
