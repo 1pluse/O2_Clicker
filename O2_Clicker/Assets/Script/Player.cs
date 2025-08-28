@@ -5,9 +5,7 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     [SerializeField] GameObject O2_Icon;
-    [SerializeField] float ClickLimittime;
     Animator Anim;
-    bool IsCorutin;
 
     private void Awake()
     {
@@ -16,19 +14,13 @@ public class Player : MonoBehaviour
 
     void OnClick()
     {
-        if(!IsCorutin)
-        StartCoroutine(NextStateAnim("isGathering"));
-    }
-
-    IEnumerator NextStateAnim(string AnimState)
-    {
-        IsCorutin = true;
-        Anim.SetBool(AnimState, true);
-        float x = Random.Range(-2.25f, 2.25f);
-        float y = Random.Range(-2.75f, 2.75f);
+        Anim.SetTrigger("IsGathering");
+        float x = Random.Range(-2f, 2f);
+        float y = Random.Range(-1.5f, 3.75f);
         Instantiate(O2_Icon, new Vector2(x, y), Quaternion.identity);
-        yield return new WaitForSeconds(ClickLimittime);
-        Anim.SetBool(AnimState, false);
-        IsCorutin = false;
+
+        if (GameManager.instance.IsFeverTime)
+            return;
+        GameManager.instance.FeverTimebar.fillAmount += 0.004f;
     }
 }

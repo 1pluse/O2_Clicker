@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 93ec556d88da4714b89fd9c2243cfca8
+guid: 492761487dad0b040b7f86b119e4d6d0
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -159,8 +159,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b54e9793d0ad1434593cf5382d14887d
-      internalID: 960645153
+      spriteID: 32b7d0e0e91e7354781a70356a343e96
+      internalID: 4518225611054890064
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 442cd085bfc2dca4badbe208c4c5c8e4
-      internalID: -1621891580
+      spriteID: 60517cbfb3c911c46a921ca63e3a48ce
+      internalID: 1871674578834246284
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a59a84730ed21240953609661f77228
-      internalID: 1798514976
+      spriteID: 9319a17f98a0fdf46bd715269a431978
+      internalID: -8148742256322455360
       vertices: []
       indices: 
       edges: []
@@ -225,8 +225,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e36464c4a8b8bc24c899653a054b7556
-      internalID: 553541664
+      spriteID: ec01e8937e9c5ae4989fc289889acef6
+      internalID: 3489784368332026933
       vertices: []
       indices: 
       edges: []
@@ -247,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fa43ba3a333f74db0ff0f182be9629
-      internalID: -968771911
+      spriteID: da72eda15bccc0a4cb8811819c9d7e69
+      internalID: -3944583295012536477
       vertices: []
       indices: 
       edges: []
@@ -257,7 +257,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e234b40d0a09c684cb0ee7fe5f9333eb
+    spriteID: 7b47be229e5f67b46832a74068a31b59
     internalID: 0
     vertices: []
     indices: 
@@ -267,11 +267,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Player-Sheet_0: 960645153
-      Player-Sheet_1: -1621891580
-      Player-Sheet_2: 1798514976
-      Player-Sheet_3: 553541664
-      Player-Sheet_4: -968771911
+      Player-Sheet_0: 4518225611054890064
+      Player-Sheet_1: 1871674578834246284
+      Player-Sheet_2: -8148742256322455360
+      Player-Sheet_3: 3489784368332026933
+      Player-Sheet_4: -3944583295012536477
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

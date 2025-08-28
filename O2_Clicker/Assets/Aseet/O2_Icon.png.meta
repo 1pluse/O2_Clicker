@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dfde61a6170fce440ad8fdaa4bf1d40c
+guid: c2568e0e52e2fa443bfa72b06bcf1e3f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8948076794219211010
-    second: O2_Icon_0
+      213: 7755303704727646195
+    second: O2_Icon 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: O2_Icon_0
+      name: O2_Icon 2_0
       rect:
         serializedVersion: 2
         x: 6
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef6d5a9809b02d380800000000000000
-      internalID: -8948076794219211010
+      spriteID: 3ffef8d41af50ab60800000000000000
+      internalID: 7755303704727646195
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      O2_Icon_0: -8948076794219211010
+      O2_Icon 2_0: 7755303704727646195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
