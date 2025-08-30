@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 2675819c1426cc84abddc65f3cb89974
+guid: 6140a24f6f74fee409d48c6d2d223043
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6909614335293094015
-    second: plasticbag_0
+      213: 8557593301167585794
+    second: TrashBag-Sheet 1_0
+  - first:
+      213: -5379941973700474472
+    second: TrashBag-Sheet 1_1
+  - first:
+      213: -6895759555800266966
+    second: TrashBag-Sheet 1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plasticbag_0
+      name: TrashBag-Sheet 1_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 6
-        width: 44
-        height: 54
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f78771611a1e3ef50800000000000000
-      internalID: 6909614335293094015
+      spriteID: 20a3b5074cda2c670800000000000000
+      internalID: 8557593301167585794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashBag-Sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8998e51774b9655b0800000000000000
+      internalID: -5379941973700474472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashBag-Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27050428375d40a0800000000000000
+      internalID: -6895759555800266966
       vertices: []
       indices: 
       edges: []
@@ -151,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0e3cb6ab48d288b4ca09636b321139b9
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plasticbag_0: 6909614335293094015
+      TrashBag-Sheet 1_0: 8557593301167585794
+      TrashBag-Sheet 1_1: -5379941973700474472
+      TrashBag-Sheet 1_2: -6895759555800266966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,7 +1,5 @@
 using DG.Tweening;
-using System.Xml;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class O2_Icon : MonoBehaviour
@@ -17,12 +15,12 @@ public class O2_Icon : MonoBehaviour
     {
         if (GameManager.instance.IsFeverTime)
         {
-            GameManager.instance.O2_HaveAmount += (O2_Value * 2f);
+            UiManager.instance.O2_HaveAmount += (O2_Value * 2f);
             valueText.text = $"+{O2_Value * 2f}";
         }
         else {
             valueText.text = $"+{O2_Value}";
-            GameManager.instance.O2_HaveAmount += (O2_Value);
+            UiManager.instance.O2_HaveAmount += (O2_Value);
         }
 
 
