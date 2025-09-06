@@ -4,12 +4,11 @@ using UnityEngine;
 public class ToolManager : MonoBehaviour
 {
     [SerializeField] Animator PlayerAnimator;
-    [SerializeField] float DelayTime;
     
     public GatheringTool currentTool;
     private SpriteRenderer itemSpriteRenderer;
     bool IsAnim = false;
-
+    float AnimDisableTime = 0;
     private void Awake()
     {
         PlayerAnimator.GetComponent<Animator>();
@@ -22,7 +21,12 @@ public class ToolManager : MonoBehaviour
         AnimatorStateInfo PlayerAnimState = PlayerAnimator.GetCurrentAnimatorStateInfo(0);
         if (!PlayerAnimState.IsName("PlayerGathering") && !IsAnim)
         {
-            InitToolData();
+            AnimDisableTime += Time.deltaTime;
+            if(AnimDisableTime > 0.15f)
+            {
+                InitToolData();
+                AnimDisableTime = 0;
+            }
         }
     }
     private void InitToolData()
@@ -40,7 +44,7 @@ public class ToolManager : MonoBehaviour
             IsAnim = true;
             transform.localPosition = currentTool.AnimOffset01;
             itemSpriteRenderer.sprite = currentTool.Anim01;
-            yield return new WaitForSeconds(DelayTime);
+            yield return new WaitForSeconds(0.25f);
             transform.localPosition = currentTool.AnimOffset02;
             itemSpriteRenderer.sprite = currentTool.Anim02;
             IsAnim = false;

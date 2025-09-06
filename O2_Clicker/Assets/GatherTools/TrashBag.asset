@@ -15,12 +15,12 @@ MonoBehaviour:
   Name: "\uC4F0\uB808\uAE30 \uBD09\uC9C0"
   Description: "\uC9D1 \uC55E\uC5D0 \uC788\uB294 \uC4F0\uB808\uAE30\uD1B5"
   Icon: {fileID: 0}
-  Sprite: {fileID: 8557593301167585794, guid: 6140a24f6f74fee409d48c6d2d223043, type: 3}
+  Sprite: {fileID: 3066728314089652268, guid: eb8f6a1826256bc41bc16668d890403a, type: 3}
   PositionOffest: {x: 1.670001, y: -3.2, z: 0}
   RotationOffset: {x: 0, y: 0, z: 10.13}
   ScaleOffset: {x: 4.8, y: 4.8, z: 1}
   AnimOffset01: {x: -14.36, y: 3.39, z: 0}
   AnimOffset02: {x: 4.75, y: 4.38, z: 0}
   GatherAmount: 1
-  Anim01: {fileID: -5379941973700474472, guid: 6140a24f6f74fee409d48c6d2d223043, type: 3}
-  Anim02: {fileID: -6895759555800266966, guid: 6140a24f6f74fee409d48c6d2d223043, type: 3}
+  Anim01: {fileID: 317052518739005151, guid: eb8f6a1826256bc41bc16668d890403a, type: 3}
+  Anim02: {fileID: -7127907382177077080, guid: eb8f6a1826256bc41bc16668d890403a, type: 3}
