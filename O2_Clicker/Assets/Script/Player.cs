@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject O2_Icon;
     [SerializeField] GameObject Tool;
     Animator Anim;
+
+
     private void Awake()
     {
         Anim = GetComponent<Animator>();
@@ -14,7 +16,7 @@ public class Player : MonoBehaviour
 
     void OnClick()
     {
-        Anim.SetTrigger("IsGathering");
+         Anim.SetTrigger("IsGathering");
         StartCoroutine(Tool.GetComponent<ToolManager>().RepositionDelay());
         float x = Random.Range(-1.85f, 1.85f);
         float y = Random.Range(-1.5f, 3.75f);
